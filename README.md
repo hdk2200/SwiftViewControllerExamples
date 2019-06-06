@@ -1,4 +1,4 @@
-# SwiftViewControllerExamples
+# Swift ViewController Examples
 
 This repository is UIViewController and a sample using UINavigationController created in Swift. This is an example of screen transition in UINavigationController and segue, and an example of embedding UIViewController as a part in ContainerView.
 
