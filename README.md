@@ -17,7 +17,7 @@ It' use segue to showing another ViewController.
 
 ### How to implement the back button
 
-1.Implement unwindSegue in the previous ViewController class.
+1. Implement unwindSegue in the previous ViewController class.
 
 1. CTRL + Drag from ViewContorlller part on Storyboard and tie it to exit.
 
