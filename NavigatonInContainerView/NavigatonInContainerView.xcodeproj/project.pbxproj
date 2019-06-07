@@ -14,6 +14,7 @@
 		208D135422A8AF720050FE9B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208D135122A8AF720050FE9B /* SecondViewController.swift */; };
 		208D135522A8AF720050FE9B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208D135222A8AF720050FE9B /* FirstViewController.swift */; };
 		208D135622A8AF720050FE9B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208D135322A8AF720050FE9B /* ThirdViewController.swift */; };
+		20C590E022A9E63800AC7B2E /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C590DF22A9E63800AC7B2E /* ContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		208D135122A8AF720050FE9B /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		208D135222A8AF720050FE9B /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		208D135322A8AF720050FE9B /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		20C590DF22A9E63800AC7B2E /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				208D134922A893C20050FE9B /* Info.plist */,
 				208D133D22A893C10050FE9B /* AppDelegate.swift */,
+				20C590DF22A9E63800AC7B2E /* ContainerViewController.swift */,
 				208D135222A8AF720050FE9B /* FirstViewController.swift */,
 				208D135122A8AF720050FE9B /* SecondViewController.swift */,
 				208D135322A8AF720050FE9B /* ThirdViewController.swift */,
@@ -143,6 +146,7 @@
 			files = (
 				208D135522A8AF720050FE9B /* FirstViewController.swift in Sources */,
 				208D135422A8AF720050FE9B /* SecondViewController.swift in Sources */,
+				20C590E022A9E63800AC7B2E /* ContainerViewController.swift in Sources */,
 				208D135622A8AF720050FE9B /* ThirdViewController.swift in Sources */,
 				208D133E22A893C10050FE9B /* AppDelegate.swift in Sources */,
 			);
