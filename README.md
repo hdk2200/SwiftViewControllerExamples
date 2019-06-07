@@ -42,11 +42,11 @@ In this example, ViewController transition same as NavigationControllerBasic pro
 
 - Storyboard, UINavigationController is embedded in Container View.
 
-![ UINavigationController in Containter View](assets/Containerview.jpg " UINavigationController in Containter View")
+![ UINavigationController in Containter View](assets/ContainerView.jpg " UINavigationController in Containter View")
 
 - Demo
 
-![ UINavigationController in Containter View](assets/Containerview.gif " UINavigationController in Containter View")
+![ UINavigationController in Containter View](assets/ContainerView.gif " UINavigationController in Containter View")
 
 
 # References
