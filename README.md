@@ -15,7 +15,7 @@ It' use segue to showing another ViewController.
 
 ![ViewController Segue transition](assets/segue.gif "Basic usage of UINavigationController.Segue transiton")
 
-### How to implement the back button
+## How to implement the back button
 
 1. Implement unwindSegue in the previous ViewController class.
 
@@ -33,9 +33,9 @@ class FirstViewController: UIViewController {
 }
 ```
 
-# NavigatonInContainerView
+# NavigationInContainerView
 
-This is example of UINavigationController in Containter View.
+This is an example of UINavigationController in Containter View.
 Containter View can include ViewController as a child.
 It can also contain a container-type ViewController such as UINavigationController or UITabBarController.
 In this example, ViewController transition same as NavigationControllerBasic project is performed in Container View.
@@ -48,6 +48,22 @@ In this example, ViewController transition same as NavigationControllerBasic pro
 
 ![ UINavigationController in Containter View](assets/ContainerView.gif " UINavigationController in Containter View")
 
+# NavigationWithBanner
+This is an example using two container views.
+The first is a Container View that includes UINavigationController and can switch ViewController.
+Another Container View contains a ViewController that displays a banner. This is always shown regardless of the first ViewController switch.
+
+- Storyboard, UINavigationController is embedded in Container View and Banner is embedded other Container View.
+
+![ NavigationWithBanner](assets/ContainterAndBanner.jpg )
+
+- Demo
+
+![ NavigationWithBanner](assets/Container_banner.gif )
+
+- View Structure(view hierarchy)
+
+![ NavigationWithBanner View Structure](assets/ContainerAndBanner_structure.jpg )
 
 # References
 
