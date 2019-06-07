@@ -2,16 +2,16 @@
 
 This repository is UIViewController and a sample using UINavigationController created in Swift. This is an example of screen transition in UINavigationController and segue, and an example of embedding UIViewController as a part in ContainerView.
 
-## NavigationControllerBasic
+# NavigationControllerBasic
 
 This is simple example using UINavigationController.
 It' use segue to showing another ViewController.
 
 - Storyboard, UINavigationController and ViewController structure.  
 
-![Basic usage of UINavigationController](assets/seque_sb.png "Basic usage of UINavigationController.")
+![Basic usage of UINavigationController](assets/seque_sb.jpg "Basic usage of UINavigationController.")
 
-- Segue transition  
+- Demo  
 
 ![ViewController Segue transition](assets/segue.gif "Basic usage of UINavigationController.Segue transiton")
 
@@ -32,3 +32,27 @@ class FirstViewController: UIViewController {
   @IBAction func unwindActionFirstVC(unwindSegue _: UIStoryboardSegue) {}
 }
 ```
+
+# NavigatonInContainerView
+
+This is example of UINavigationController in Containter View.
+Containter View can include ViewController as a child.
+It can also contain a container-type ViewController such as UINavigationController or UITabBarController.
+In this example, ViewController transition same as NavigationControllerBasic project is performed in Container View.
+
+- Storyboard, UINavigationController is embedded in Container View.
+
+![ UINavigationController in Containter View](assets/Containerview.jpg " UINavigationController in Containter View")
+
+- Demo
+
+![ UINavigationController in Containter View](assets/Containerview.gif " UINavigationController in Containter View")
+
+
+# References
+
+* [UIViewController \- UIKit \| Apple Developer Documentation](https://developer.apple.com/documentation/uikit/uiviewcontroller)
+
+* [View Controller Programming Guide for iOS: Implementing a Container View Controller](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/ImplementingaContainerViewController.html)
+
+
