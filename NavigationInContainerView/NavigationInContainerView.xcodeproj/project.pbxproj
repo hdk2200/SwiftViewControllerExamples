@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		208D133A22A893C10050FE9B /* NavigatonInContainerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigatonInContainerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		208D133A22A893C10050FE9B /* NavigationInContainerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationInContainerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		208D133D22A893C10050FE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		208D134222A893C10050FE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		208D134422A893C20050FE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		208D133122A893C10050FE9B = {
 			isa = PBXGroup;
 			children = (
-				208D133C22A893C10050FE9B /* NavigatonInContainerView */,
+				208D133C22A893C10050FE9B /* NavigationInContainerView */,
 				208D133B22A893C10050FE9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		208D133B22A893C10050FE9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				208D133A22A893C10050FE9B /* NavigatonInContainerView.app */,
+				208D133A22A893C10050FE9B /* NavigationInContainerView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		208D133C22A893C10050FE9B /* NavigatonInContainerView */ = {
+		208D133C22A893C10050FE9B /* NavigationInContainerView */ = {
 			isa = PBXGroup;
 			children = (
 				208D134922A893C20050FE9B /* Info.plist */,
@@ -70,15 +70,15 @@
 				208D134622A893C20050FE9B /* LaunchScreen.storyboard */,
 				208D134122A893C10050FE9B /* Main.storyboard */,
 			);
-			path = NavigatonInContainerView;
+			path = NavigationInContainerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		208D133922A893C10050FE9B /* NavigatonInContainerView */ = {
+		208D133922A893C10050FE9B /* NavigationInContainerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 208D134C22A893C20050FE9B /* Build configuration list for PBXNativeTarget "NavigatonInContainerView" */;
+			buildConfigurationList = 208D134C22A893C20050FE9B /* Build configuration list for PBXNativeTarget "NavigationInContainerView" */;
 			buildPhases = (
 				208D133622A893C10050FE9B /* Sources */,
 				208D133722A893C10050FE9B /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = NavigatonInContainerView;
+			name = NavigationInContainerView;
 			productName = NavigationControllerBasic;
-			productReference = 208D133A22A893C10050FE9B /* NavigatonInContainerView.app */;
+			productReference = 208D133A22A893C10050FE9B /* NavigationInContainerView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 208D133522A893C10050FE9B /* Build configuration list for PBXProject "NavigatonInContainerView" */;
+			buildConfigurationList = 208D133522A893C10050FE9B /* Build configuration list for PBXProject "NavigationInContainerView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				208D133922A893C10050FE9B /* NavigatonInContainerView */,
+				208D133922A893C10050FE9B /* NavigationInContainerView */,
 			);
 		};
 /* End PBXProject section */
@@ -296,12 +296,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MYTEAMID;
-				INFOPLIST_FILE = NavigatonInContainerView/Info.plist;
+				INFOPLIST_FILE = NavigationInContainerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.NavigatonInContainerView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NavigationInContainerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,12 +314,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MYTEAMID;
-				INFOPLIST_FILE = NavigatonInContainerView/Info.plist;
+				INFOPLIST_FILE = NavigationInContainerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.NavigatonInContainerView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.NavigationInContainerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		208D133522A893C10050FE9B /* Build configuration list for PBXProject "NavigatonInContainerView" */ = {
+		208D133522A893C10050FE9B /* Build configuration list for PBXProject "NavigationInContainerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				208D134A22A893C20050FE9B /* Debug */,
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		208D134C22A893C20050FE9B /* Build configuration list for PBXNativeTarget "NavigatonInContainerView" */ = {
+		208D134C22A893C20050FE9B /* Build configuration list for PBXNativeTarget "NavigationInContainerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				208D134D22A893C20050FE9B /* Debug */,
